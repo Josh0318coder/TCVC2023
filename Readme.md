@@ -20,6 +20,18 @@ Model can be download in [Model_Released](https://bupteducn-my.sharepoint.com/:f
 Any problem about the implementation, please contact sqchen@bupt.edu.cn
 
 
+## Citation 
+Please cite this paper in your publications if it helps your research:
+```
+@inproceedings{zhang2023temporal,
+  title={Temporal consistent automatic video colorization via semantic correspondence},
+  author={Zhang, Yu and Chen, Siqi and Wang, Mingdao and Zhang, Xianlin and Zhu, Chuang and Zhang, Yue and Li, Xueming},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={1835--1844},
+  year={2023}
+}
+```
+
 
 ## related articles
 
