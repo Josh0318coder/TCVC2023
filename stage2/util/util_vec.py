@@ -10,8 +10,8 @@ import torch
 import torchvision.utils as vutils
 from skimage import color, io
 from torch.autograd import Variable
-from skimage.measure.simple_metrics import compare_psnr
-from skimage.measure import compare_ssim
+from skimage.metrics import peak_signal_noise_ratio as compare_psnr
+from skimage.metrics import structural_similarity as compare_ssim
 #import lpips
 cv2.setNumThreads(0)
 
