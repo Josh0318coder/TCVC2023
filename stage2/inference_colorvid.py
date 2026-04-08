@@ -73,7 +73,7 @@ def get_args_parser():
                         help="Number of frames")
     parser.add_argument('--scale_size', default=[216,384], type=float)                    
 
-    parser.add_argument('--ref_path', default='./stage1_test_results',)  #./stage1_test_results
+    parser.add_argument('--ref_path', default=None)  # None = use first frame of each scene as reference
 
     return parser
 
